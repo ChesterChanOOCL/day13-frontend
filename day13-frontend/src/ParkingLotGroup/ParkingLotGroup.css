@@ -1,0 +1,57 @@
+/* ParkingLotGeneratorBar */
+.ParkingLotGeneratorBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+/* Table Styles */
+.table-container {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-container th,
+.table-container td {
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.table-container td {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.table-container td:hover {
+    background-color: #f1f1f1;
+}
+
+/* Cell Styles */
+.cell-box {
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    padding: 8px;
+    height: 50px;
+    background-color: #e9f5ff;
+    color: #007bff;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cell-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
